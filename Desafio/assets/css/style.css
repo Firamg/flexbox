@@ -1,0 +1,179 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sistema{
+    display: flex;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    /*width: 22em;*/
+    
+}
+
+.contacto{
+
+    display: flex;
+    height: 4em;
+    border: solid 1px rgb(183, 183, 183) ;
+    padding-left: 2em;
+    padding-top: 1em;
+
+}
+
+.contacto img{
+    border-radius: 50%;
+    height: 70%;
+    display: flex;
+    
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0.5em;
+    padding-left: 0.5em;
+    
+
+    
+}
+
+h4{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-weight: bold;
+
+}
+.parrafo-act p{
+    color: gray;
+}
+
+p{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 100;
+    /*color: gray;*/
+}
+
+.img-activo{
+    display: flex;
+    justify-content: space-between;
+    /*margin: 1em;*/
+    
+    
+    margin-left: 4em;
+}
+
+.img-activo i{
+    padding: 1em;
+}
+
+.nuevo-mensaje{
+    display: flex;
+    height: 4em;
+    border: solid 1px rgb(183, 183, 183) ;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+.nuevo-chat{
+    color: white;
+    background-color: #A491D2;
+    padding: 1em;
+    padding-left: 4em;
+    padding-right: 4em;
+
+
+}
+
+/* ACA HAY QUE CONFIGURAR EL RESTO*/
+
+.text-noact{
+    font-weight: 300;
+    color: black;
+
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 9em;
+    padding-right: 9em;
+    background-color: rgb(235, 232, 232);
+    
+}
+
+.principal img{
+    height: 30%;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.principal p{
+    font-size: large;
+    text-align: center;
+}
+
+
+/*body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sistema{
+    display: flex;
+    
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 9em;
+
+}
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+*/
+
+/*
+
+.contactos img{
+    border-radius: 50%;
+    width: 15%;
+    
+}*/
+/*img{
+    border-radius: 50%;
+    width: 7%;
+}*/
+
+/*.sistema{
+
+    display: flex;
+}*/
+
+
